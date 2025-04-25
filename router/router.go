@@ -12,5 +12,5 @@ func Initialize() {
 	initializerRoutes(router)
 
 	// Run the server
-	router.Run()
+	router.Run(":8080")
 }
